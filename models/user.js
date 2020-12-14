@@ -24,7 +24,7 @@ const userschema = mongoose.Schema({
     },
     image:String,
     token:{
-        type:string
+        type:String
     },
     tokenexp:{
         type:Number
